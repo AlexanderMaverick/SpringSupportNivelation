@@ -22,6 +22,7 @@ body {
     margin-top: 10px;
     display: block;
     color: #d4dae6;
+    font-size: 15px;
   }
 
   .scientific-var {
@@ -43,6 +44,7 @@ body {
     max-width: 920px;
     padding: 12px;
     font-size: 16px;
+    min-height: 44px;
     margin-top: 5px;
     margin-bottom: 10px;
     margin-left: auto;
@@ -188,4 +190,55 @@ body {
     stroke: #1a1d23;
     stroke-width: 3px;
     stroke-linejoin: round;
+  }
+
+  @media (max-width: 768px) {
+    body {
+      padding: 12px;
+      max-width: 100%;
+    }
+
+    h2 {
+      font-size: 1.35rem;
+      margin: 6px 0 14px;
+    }
+
+    label {
+      margin-top: 8px;
+      font-size: 16px;
+    }
+
+    input {
+      width: 100%;
+      margin-bottom: 8px;
+      font-size: 16px;
+      padding: 12px 10px;
+    }
+
+    button {
+      width: 100%;
+      max-width: 100%;
+      min-height: 44px;
+      margin-top: 10px;
+      font-size: 17px;
+    }
+
+    #resultado {
+      margin-top: 14px;
+      font-size: 16px;
+      line-height: 1.45;
+      padding: 12px;
+    }
+
+    .grafica-wrap {
+      margin-top: 14px;
+      padding: 8px;
+      overflow-x: auto;
+    }
+
+    .grafica-leyenda {
+      font-size: 13px;
+      gap: 8px;
+      padding-top: 10px;
+    }
   }
